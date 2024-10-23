@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>###</title>
+  <link rel="stylesheet" href="normalize.css">
+  <style>
+    body {
+	margin: 0px;
+	font-family: monospace;
+    }
+
+    .ui-container {
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+    }
+
+    .ui-item input {
+	width: 90vw;
+    }
+
+    .inputAR {
+	border: none;
+	width: 40vw;
+	font-size: 3em;
+    }
+
+    .inputAR:focus {
+	outline: none;
+    }
+
+    .menu-wraper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+    }
+
+    .menu-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+    }
+
+    .card-container {
+	width: 30vw;
+	height: 16vh;
+	/* border-left: solid 15px white; */
+    }
+
+    .card-container:hover {
+	/* border-left: solid 15px black; */
+	background-color: hsl(0, 0%, 97%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ui-container" id="uiContainer">
+    <div class='menu-wraper'>
+      <div class="menu-container"></div>
+      </div>
+  </div>
+
+  
+  <script src="bundle.js"></script>
+</body>
+
+</html>
